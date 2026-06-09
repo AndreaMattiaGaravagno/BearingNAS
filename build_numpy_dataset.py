@@ -1,9 +1,9 @@
 import numpy as np
 import scipy.io
 
-sample_length = 512 #1024
+sample_length = 512 
 
-samples_to_take = 200 #100
+samples_to_take = 200 
 
 data_folder = "./data"
 
