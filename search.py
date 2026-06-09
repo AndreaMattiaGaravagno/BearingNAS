@@ -18,9 +18,9 @@ cache = True
 
 #target: STM32F030F4P6
 #106 CoreMark, 16 kiB Flash, 4 kiB RAM
-MACC_upper_bound = 1060000 #CoreMark * 10^4
-flash_upper_bound = 16384
-ram_upper_bound = 4096
+#MACC_upper_bound = 1060000 #CoreMark * 10^4
+#flash_upper_bound = 16384
+#ram_upper_bound = 4096
 
 #target: STM32C011F6P6
 #114 CoreMark, 32 kiB Flash, 6 kiB RAM
@@ -30,9 +30,9 @@ ram_upper_bound = 4096
 
 #target:  LSM6DSO16IS
 #n.a. CoreMark, 32 kiB Flash, 8 kiB RAM
-#MACC_upper_bound = 1140000 #last CoreMark * 10^4
-#flash_upper_bound = 32768
-#ram_upper_bound = 8192
+MACC_upper_bound = 1140000 #last CoreMark * 10^4
+flash_upper_bound = 32768
+ram_upper_bound = 8192
 
 time_budget = 60 * 60 * 60 #s - seconds
 
